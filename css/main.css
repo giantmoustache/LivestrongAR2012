@@ -112,7 +112,9 @@ margin-bottom: 1em;
 .med-brown { color: #947b00; }
 .dark-brown { color: #635100; }
 
-/* Navigation */
+/* =======
+	Navigation
+=======*/
 
 nav {
 	position: fixed;
@@ -208,6 +210,7 @@ section h1.tag, section h1.tag-yellow, section h1.tag-white {
 	padding-top: 20px;
 	padding-left: 20px;
 	margin: 0;
+	display: none;
 }
 
 .tag, .tag-white, .tag-yellow {
@@ -706,6 +709,10 @@ figure, figure.over-image {
 nav { display: none; }
 .clip768 { display: block; width:100%; }
 .hide768 { display: none; }
+
+section h1.tag, section h1.tag-yellow, section h1.tag-white {
+display: block;
+}
 
 .inner {
 	width: 100% !important;
