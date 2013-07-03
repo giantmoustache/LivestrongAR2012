@@ -123,7 +123,7 @@
 		<h3 class="thin">After 15 Years, It's Our Time</h3>
 		<p>Out time to rise above. Our time to renew, remake and reenergize. So lets take a moment to remind ourselves that we bring
 		   the most needed support at the most heightened moment to those affected by cancer &mdash; from day one. Above all else, THEY are
-	       our priority. We fight with them to rise avove the odds, the expectations and the disease. We all rise above. Together.</p>
+	       our priority. We fight with them to rise above the odds, the expectations and the disease. We all rise above. Together.</p>
 		<p>As one of our supporters stated, "I feel like I'm the number one priority to the Foundation. I'm above all other things to them.
 		   There are so many layers to this journey, and they help me rise to the top... Where I can breathe."</p>
 		</div>
@@ -146,8 +146,22 @@
 			<h3 class="thin">Dear Friends</h3>
 			<p>Community. Its the first word that comes to mind when I think about the <b class="caps">Livestrong</b> Foundation. In 2012, I never
 			   felt more strongly about the power of community as we &mdash; together with you by our side &mdash; faced difficult headwinds and uncharted
-			   territory.</p>
-			<a href="#">Continue Reading</a>
+			   territory.
+				<span class="read-more-content">
+				Through that and beyond, as we move with, yes, excitement into a new, promising and singularly focused era for our Foundation, we have remained intently focused on what matters: people affected by cancer today and our mission to improve their lives. Last year, our 15th anniversary year, we achieved several significant successes that helped us perform at the highest level and positioned us to move forward with even greater success.
+				<br /><br />
+				First, thanks to your hard work and support, we surpassed the 2.5-million-people-served milestone by helping a record number of people in 2012 through our free, one-on-one cancer support services. Offered in person, by phone and online, these highly personalized, deeply engaged services connect people to treatment options, financial counseling, clinical trial access, fertility preservation, insurance and transportation assistance, emotional support and much more. With 14 million Americans living with cancer now and 4,500 Americans receiving new diagnoses each day, we know the need is great. Most important, we know it works. Research shows that addressing the concerns of the whole patient, alongside their medical treatment, produces measurably better outcomes in improved quality of life and prolonged survival.
+				<br /><br />
+				Second, in 2012, we worked on the front lines and across the globe to advance cancer care. We engaged in public policy matters that affect people with cancer and fought against the cancer stigmas that still exist – hampering life-saving diagnoses and treatment – in many parts of the world. Third, we continued our groundbreaking work to foster ongoing dialogue with cancer patients and survivors, through Foundation research and surveys, and gained deeper insights that inform both our programs and the wider cancer community’s treatment protocols.
+				<br /><br />
+				Fourth, we worked closely with our many programmatic and cause marketing partners to strengthen our financial future, innovate expansions of our efforts and deliver first-rate services for those in need.
+				<br /><br />
+				Our accomplishments would not be possible without the steadfast commitment of our Chairman Jeff Garvey, our Board of Directors and our millions of dedicated supporters. Our success has always been derived from people from all walks of life that meet a cancer diagnosis with hope and more than a little grit. We are inspired by you to dream bigger and reach further.
+				<br /><br />
+				Although some things have changed, one thing remains absolutely true: this Foundation doesn’t back down from a challenge. Make no mistake that we will forge ahead boldly in 2013 to continue making a difference in the lives of people affected by cancer.
+				</span>
+			   <a href="#" class="read-more metroblacktwo caps black center">Continue Reading<br /><img src="imgs/down-arrow.png"></a>
+			</p>
 		</div>
 		<div class="col30 clip480">
 			<img src="imgs/info-signature.png" alt="Doug Ulmann President &amp; CEO" id="info-signature">
@@ -183,8 +197,15 @@
 			   came in. Breast cancer. Again. The news was devastating and the options were few.</p>
 			<p>At 31, Sara chose to have her ovaries removed, her best chance to survive. She thought it meant her dream of being a 
 			   parent was over. She was fighting for her own life now. But, when her oncologist mentioned the possibility of in virtro vertilization 
-			   and connected Sarah to the <b class="caps">Livestrong</b> Foundation, everything changed.</p>
-			<a href="#">Continue Reading</a>
+			   and connected Sarah to the <b class="caps">Livestrong</b> Foundation, everything changed.
+				<span class="read-more-content">
+					<br />
+					Sarah and her husband worked with one of our navigators to help pay for the medications and services for freezing embryos. And when her sister-in-law stepped forward to be a surrogate, their dreams came true. Lilly Dee was born nine months later.
+					<br /><br />
+					Sarah sums it up, "The LIVESTRONG Foundation made what we thought was impossible... possible."
+				</span>
+			   <a href="#" class="read-more metroblacktwo caps white center">Continue Reading<br /><img src="imgs/down-arrow.png"></a>
+			</p>
 			</div>
 		</section>
 		
@@ -338,7 +359,11 @@
 			<p>Barbara Simmons took on one of the biggest challenges of her life in 2012 &mdash; a LIVE<b>STRONG</b> Foundation challenge known as RAGBRAI. Seven consecutive
 			days of cycling, each day longer than the next, in 100-plus degree heat across Iowa. And, in her opinion, she's not even a cyclist. Pretty incredible, to say
 			the least, but it's not the biggest challenge she's ever faced.</p>
-			<a href="#">Continue Reading</a>
+			<span class="read-more-content">
+				<br />
+				Synergistically matrix interactive vortals rather than web-enabled models. Dramatically leverage other's professional opportunities whereas 24/7 models. Objectively maintain leading-edge mindshare without multimedia based innovation. Enthusiastically.
+			</span>
+		   <a href="#" class="read-more metroblacktwo caps black center">Continue Reading<br /><img src="imgs/down-arrow.png"></a>
 		</div>
 		
 		<div class="col50 clip480">
@@ -1101,6 +1126,20 @@
 
 </div>
 </div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js//jquery-1.9.1.min.js"><\/script>')</script>
+	<!--Continue Reading-->
+	<script type="text/javascript">
+		//Hide Read More Content
+		$('.read-more-content').hide();
+		
+		// Set up the read more function.
+		$('.read-more').click(function(event) {
+			event.preventDefault();
+			$(this).prev('.read-more-content').slideDown();
+			$(this).remove();
+		});
+	</script>
 
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
 	<!--[if lt IE 9]>

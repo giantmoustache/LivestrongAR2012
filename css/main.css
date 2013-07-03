@@ -112,10 +112,12 @@ margin-bottom: 1em;
 .med-brown { color: #947b00; }
 .dark-brown { color: #635100; }
 
-/* =======
-	Navigation
-=======*/
 
+/* Continue Reading */
+.read-more { text-decoration: none; font-size: 10px; display: block; margin-top: 40px; }
+.read-more-content { display: inline-block; }
+
+/* Navigation */
 nav {
 	position: fixed;
 	top: 0;
